@@ -25,9 +25,9 @@ class App extends React.Component{
 
       home: {
 
-        title: 'Push through darkness and conquer the unknown',
-        subTitle: 'Computer Engineering student 2022',
-        text: 'Learn more about me and my projects below'
+        title: 'Conquer The Unknown',
+        subTitle: 'Computer Engineer Class 2022',
+        text: 'More about me and my projects below'
       },
 
       about: {
@@ -35,7 +35,7 @@ class App extends React.Component{
       },
 
       contact: {
-        title: "Let's Talk"
+        title: "Let's Talk!"
       }
 
 
