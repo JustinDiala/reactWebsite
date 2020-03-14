@@ -43,7 +43,7 @@ class App extends React.Component{
   }
 
   // routing is used for when you click home, about, or contact it switches to a different page
-
+  // use material-ui for reactive fonts
   render() {
     return (
       <Router>
@@ -59,7 +59,7 @@ class App extends React.Component{
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-
+          
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title}  />} />
           <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />} />
