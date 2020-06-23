@@ -3,7 +3,7 @@ import { useSpring, animated} from 'react-spring';
 
 function CardInfo(props) {
 
-    const style = useSpring({opacity: 1, from : 0});
+    const style = useSpring({opacity: 1, from : {opacity: 0}});
 
     return(
         
